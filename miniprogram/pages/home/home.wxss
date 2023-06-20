@@ -1,0 +1,14 @@
+/* pages/home/home.wxss */
+.box{
+  background-color: aqua;
+  width: 200px;
+}
+.box2{
+  background-color: pink;
+  width: 200rpx;
+}
+
+input{
+  border:1rpx solid #000;
+}
+
