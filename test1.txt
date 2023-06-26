@@ -1,6 +1,3 @@
-nn6666666mm
-777777
-8888888888
-aaaaaaaaa
-bbbbbbbbb
-cccccccc
+aaaaaaaa
+bbbbbb
+ccccccc
