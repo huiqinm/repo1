@@ -1,0 +1,8 @@
+@import "./transition.scss";
+
+/**	循环*/
+@for $i from 1 to 10 {
+  .border-#{$i} {
+    border: #{$i}px solid red;
+  }
+}

@@ -1,0 +1,38 @@
+/* font-size */
+$font-size-primary: 0.533rem; //主要字体 16px
+$font-size-Level1: 0.733rem; //一级字体 22px
+$font-size-Level2: 0.667rem; //二级字体 20px
+$font-size-Level3: 0.467rem; //三级字体 14px
+$font-size-Level4: 0.4rem; //四级字体 12px
+
+/* font-family */
+$font-family-main: "PingFang SC";
+
+/* color */
+$font-color-primary-light: #ffffff; //主要颜色-light
+$font-color-primary: #fff; //主要颜色(菜单active,一级标题)
+$font-color-secondary: #ddd; //次要字体颜色(菜单default,二级标题)
+$font-color-third: #737a8b;
+$font-color-fourth: #b4bed2;
+$font-color-active: #2280ff;
+$backgroud-color-active: #2280ff;
+$icon-color-primary: #b4bed2;
+$icon-color-secondary: #e1e6f0;
+$icon-color-active: #b4dcff;
+$bg-color-hover: #f6f8fc;
+
+/* placeholder */
+$placeholder-color: #999999;
+@mixin placeholder {
+  &::-webkit-input-placeholder {
+    color: $placeholder-color;
+  }
+
+  &::-moz-input-placeholder {
+    color: $placeholder-color;
+  }
+
+  &::-ms-input-placeholder {
+    color: $placeholder-color;
+  }
+}
